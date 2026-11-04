@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Wasif Ullah</title>
+  <meta name="description" content="PhD research of Wasif Ullah: self-learning composite dispatching rules for scheduling in dynamic manufacturing systems.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-name" href="index.html">Wasif Ullah</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html" aria-current="page">Research</a></li>
+          <li><a href="selected-work.html">Selected Work</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+
+      <h1>Research</h1>
+      <p class="subtitle">PhD dissertation: <em>Self-Learning Composite Dispatching Rules for Scheduling in Dynamic Manufacturing Systems</em></p>
+
+      <h2>Overview</h2>
+      <p>
+        Scheduling is one of the core decision problems in manufacturing: deciding which job is
+        processed next, on which machine, and when. In real production systems this decision has
+        to be taken continuously and under uncertainty. Machines break down, urgent orders
+        arrive, processing times vary, and the state of the shop floor changes faster than
+        classical optimization models can be re-solved.
+      </p>
+      <p>
+        Dispatching rules, simple priority rules that select the next job from a queue, remain
+        the most widely used scheduling method in practice because they are fast, transparent
+        and easy to implement. Their weakness is that any single hand-designed rule performs
+        well only in the conditions it was designed for. My research addresses this gap by
+        developing <strong>self-learning composite dispatching rules</strong>: scheduling
+        heuristics that are constructed and adapted automatically, combining multiple
+        elementary rules and shop-floor attributes into composite expressions that learn from
+        production data and respond to changing system conditions.
+      </p>
+
+      <h2>Motivation</h2>
+      <p>
+        Manufacturers increasingly operate in high-mix, low-volume environments where static
+        schedules lose validity within hours. Exact optimization methods are often too slow or
+        too brittle for this setting, while purely data-driven black-box models can be
+        difficult to trust, interpret and deploy on the shop floor. There is a need for
+        scheduling methods that are simultaneously adaptive, computationally cheap at decision
+        time, and interpretable enough for engineers and planners to understand and validate.
+      </p>
+
+      <h2>Research objectives</h2>
+      <ul>
+        <li>To develop evolutionary and learning-based methods that automatically design composite dispatching rules for dynamic manufacturing systems.</li>
+        <li>To enable rules to adapt to changing shop-floor conditions, including machine breakdowns, rush orders and stochastic processing times.</li>
+        <li>To preserve the interpretability of dispatching rules so that evolved heuristics remain transparent to practitioners.</li>
+        <li>To evaluate evolved rules systematically against classical rules and state-of-the-art baselines on dynamic scheduling scenarios.</li>
+        <li>To identify the conditions under which self-learning scheduling approaches are ready for industrial adoption.</li>
+      </ul>
+
+      <h2>Methodology</h2>
+      <p>
+        The research combines simulation modelling of dynamic manufacturing systems with
+        evolutionary computation and machine learning. Evolutionary hyper-heuristics, in
+        particular genetic-programming-style approaches, are used to search the space of
+        composite dispatching rules, using shop-floor attributes and system state variables as
+        building blocks. Candidate rules are evaluated in a discrete-event simulation
+        environment that reproduces stochastic and dynamic conditions, and their performance is
+        compared against benchmark dispatching rules and learning-based baselines across
+        multiple criteria such as flow time, tardiness and machine utilization.
+      </p>
+
+      <h2>Ongoing and related directions</h2>
+      <p>
+        Alongside the core PhD work, I study the broader landscape of intelligent scheduling
+        through systematic literature reviews. This includes a critical review of the
+        transition from classical dispatching rules to self-learning scheduling, covering
+        evolutionary and learning-based approaches, and a systematic survey of how large
+        language models are being applied to manufacturing scheduling, from heuristic
+        generation to conversational scheduling assistants. These reviews inform the
+        positioning of my doctoral work and help map open problems and adoption barriers for
+        intelligent scheduling in industry.
+      </p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Wasif Ullah · James Watt School of Engineering, University of Glasgow</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
