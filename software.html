@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Software — Wasif Ullah</title>
+  <meta name="description" content="Software and computational tools by Wasif Ullah: dynamic scheduling simulation, metaheuristic optimization frameworks in MATLAB and Python.">
+  <meta name="theme-color" content="#101113">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..700&family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="shell">
+      <a class="site-header-name" href="index.html" aria-label="Wasif Ullah — home">Wasif Ullah<span class="dot">.</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="research.html" aria-label="Research"><span class="roll"><span class="roll-inner"><span>Research</span><span>Research</span></span></span></a>
+        <a href="simulations.html" aria-label="Simulations"><span class="roll"><span class="roll-inner"><span>Simulations</span><span>Simulations</span></span></span></a>
+        <a href="software.html" aria-current="page" aria-label="Software"><span class="roll"><span class="roll-inner"><span>Software</span><span>Software</span></span></span></a>
+        <a href="teaching.html" aria-label="Teaching"><span class="roll"><span class="roll-inner"><span>Teaching</span><span>Teaching</span></span></span></a>
+        <a href="about.html" aria-label="About"><span class="roll"><span class="roll-inner"><span>About</span><span>About</span></span></span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero shell">
+      <p class="label">Software</p>
+      <h1 class="page-title">Tools &amp; code<span style="color: var(--blue);">.</span></h1>
+      <p class="lede">
+        Simulation environments and optimization frameworks developed during my research.
+        I work in MATLAB and Python as my programming languages, with Visual Studio Code
+        as my code editor of choice. The code for each project will be available on my
+        GitHub profile — feel free to get in touch in the meantime.
+      </p>
+    </section>
+
+    <section class="shell">
+      <div class="item-list">
+
+        <article class="item">
+          <div class="item-index">
+            <span class="year">Python</span>
+            <span class="venue-tag">Simulation</span>
+          </div>
+          <div class="item-body">
+            <h3 class="item-name">Dynamic scheduling simulation environment</h3>
+            <p class="item-venue">Discrete-event simulation · research infrastructure</p>
+            <p class="item-desc">
+              A configurable discrete-event simulation environment for dynamic
+              manufacturing systems, used to benchmark dispatching rules and
+              learning-based schedulers under controlled stochastic conditions —
+              multiple shop configurations, arrival processes and disturbance models
+              including machine breakdowns and rush orders.
+            </p>
+          </div>
+        </article>
+
+        <article class="item">
+          <div class="item-index">
+            <span class="year">MATLAB</span>
+            <span class="venue-tag">Optimization</span>
+          </div>
+          <div class="item-body">
+            <h3 class="item-name">Greedy-assisted TLBO for hybrid flow shop scheduling</h3>
+            <p class="item-venue">Metaheuristics · cost-oriented scheduling</p>
+            <p class="item-desc">
+              Implementation of the greedy-assisted teaching-learning-based optimization
+              algorithm for cost-based hybrid flow shop scheduling, published in
+              <em>Expert Systems with Applications</em> (2025). Includes problem
+              instances, cost models and experiment scripts.
+            </p>
+            <ul class="item-links">
+              <li><a href="https://doi.org/10.1016/j.eswa.2025.126955">Paper</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="item">
+          <div class="item-index">
+            <span class="year">MATLAB · Python</span>
+            <span class="venue-tag">Benchmarking</span>
+          </div>
+          <div class="item-body">
+            <h3 class="item-name">Metaheuristics benchmarking suite</h3>
+            <p class="item-venue">Comparative study · PSO · DE · TLBO · GA</p>
+            <p class="item-desc">
+              Benchmarking code comparing classical dispatching rules, metaheuristics
+              and learning-based approaches on standard scheduling problems, with
+              attention to solution quality, computational cost and robustness to
+              dynamic changes.
+            </p>
+          </div>
+        </article>
+
+        <article class="item">
+          <div class="item-index">
+            <span class="year">Python</span>
+            <span class="venue-tag">Evolutionary</span>
+          </div>
+          <div class="item-body">
+            <h3 class="item-name">Evolution of self-learning dispatching rules</h3>
+            <p class="item-venue">Genetic programming · hyper-heuristics · core PhD project</p>
+            <p class="item-desc">
+              An evolutionary hyper-heuristic framework that automatically generates
+              composite dispatching rules for dynamic job shop scheduling. The system
+              evolves interpretable rule expressions from shop-floor attributes and
+              evaluates them in a stochastic discrete-event simulation.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>&copy; <span id="year">2026</span> Wasif Ullah · University of Glasgow</p>
+      <nav class="contact-links" aria-label="Contact and profiles">
+        <a href="mailto:wasif.optim@gmail.com">Email</a>
+        <a href="assets/cv.pdf">CV</a>
+        <a href="https://scholar.google.com/citations?user=JLo4vEMAAAAJ&amp;hl=en">Scholar</a>
+        <a href="https://orcid.org/0009-0007-9515-0341">ORCID</a>
+        <a href="https://github.com/wasif-ai-opt">GitHub</a>
+        <a href="https://www.linkedin.com/in/engineeringoptimization/">LinkedIn</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
